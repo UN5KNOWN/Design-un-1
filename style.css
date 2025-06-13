@@ -44,6 +44,34 @@ ul {
     width: 1170px;
   }
 }
+
+/* Name Animation */
+.my-name {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--main-color);
+  cursor: pointer;
+  animation: ligh-me-up 1.5s ease-in-out infinite;
+  text-decoration: none;
+}
+
+@keyframes ligh-me-up {
+  0% {
+    color: #f84747;
+  }
+  50% {
+    color: #ffffff; /* White */
+  }
+  80% {
+    color: pink;
+  }
+  100% {
+    color: #f84747;
+  }
+}
+
 /* ---------Speacial heading--------- */
 .section {
   padding: 100px;
